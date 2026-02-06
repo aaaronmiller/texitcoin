@@ -1,0 +1,78 @@
+{
+    "incidents": [
+        {
+            "id": "october-2025-breach",
+            "date": "2025-10",
+            "type": "Security Breach",
+            "severity": "high",
+            "amount": "Undisclosed",
+            "cause": "Insider access",
+            "response": "IT team initially retained",
+            "details": "Security breach involving insider access. Per Bobby Gray's admission, this was 'not the first time' security was compromised.",
+            "source": "Disruption Banking"
+        },
+        {
+            "id": "january-2026-hack",
+            "date": "2026-01",
+            "type": "Insider Hack",
+            "severity": "critical",
+            "amount": "$210,000",
+            "cause": "Developer backdoor",
+            "response": "IT team fired, public request for IT referrals",
+            "details": "Bobby Gray publicly admitted that a 'trusted developer' inserted a backdoor, resulting in approximately $210,000 in losses. Gray subsequently fired the IT team and asked his audience for referrals to new IT personnel.",
+            "source": "Disruption Banking, Miner's Update"
+        },
+        {
+            "id": "data-breach-2026",
+            "date": "2026-01",
+            "type": "Data Breach",
+            "severity": "high",
+            "amount": "N/A",
+            "cause": "Unencrypted user data",
+            "response": "Unknown",
+            "details": "Major security failure affecting 'hundreds of wallets' with unencrypted user data exposed. Indicates weak security practices around user information and access controls.",
+            "source": "Disruption Banking"
+        }
+    ],
+    "governanceIssues": [
+        {
+            "issue": "No documented technical team",
+            "severity": "high",
+            "details": "Independent reporting found that many staff profiles appear illusory or non-existent, with a 'core team' effectively of one person (Gray)."
+        },
+        {
+            "issue": "No public source code",
+            "severity": "high",
+            "details": "Despite being a blockchain project, there is no public repository or open-source code available for community review or audit."
+        },
+        {
+            "issue": "No on-chain governance",
+            "severity": "medium",
+            "details": "No on-chain voting mechanisms, DAO structures, or transparent treasury management."
+        },
+        {
+            "issue": "Centralized decision making",
+            "severity": "high",
+            "details": "Key decisions (commission changes, price targets, liquidity strategy, mining expansion) are announced unilaterally by Gray in 'Miner's Updates' with no community input."
+        },
+        {
+            "issue": "Ad-hoc security practices",
+            "severity": "critical",
+            "details": "Publicly asking social media audience for IT referrals after firing security team indicates lack of professional operational infrastructure."
+        }
+    ],
+    "operationalFailures": [
+        {
+            "issue": "Miner destruction",
+            "details": "Founders admitted to destroying miners via voltage errors, indicating poor operational procedures."
+        },
+        {
+            "issue": "Hashpower deployment",
+            "details": "Only ~1% of sold hashpower actually operational per Gray's own admissions during Miner's Updates."
+        },
+        {
+            "issue": "Failed mining expansion",
+            "details": "Large sums spent on mining expansion that failed to deliver promised results."
+        }
+    ]
+}

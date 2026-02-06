@@ -1,0 +1,300 @@
+{
+    "strategies": [
+        {
+            "id": "otc-acquisition",
+            "name": "OTC Bag Acquisition",
+            "shortName": "OTC Vulture",
+            "risk": "medium",
+            "expectedRoi": "100-300%",
+            "capitalRequired": "$50K-500K",
+            "timeHorizon": "3 months",
+            "summary": "Acquire distressed holders' bags at 40-50% discount via OTC, exit during Dubai hype window.",
+            "executionSteps": [
+                "Source distressed sellers in Telegram groups, Facebook community, X complaints",
+                "Negotiate OTC deals at $0.40-0.50 (vs $0.78 market)",
+                "Use escrow or on-chain smart contract for settlement",
+                "Hold until Dubai window (April 25-30)",
+                "Place limit sell orders at $1.20 / $1.50 / $2.00 ladder"
+            ],
+            "projections": {
+                "base": {
+                    "investment": 50000,
+                    "costBasis": 0.45,
+                    "exitPrice": 1.20,
+                    "proceeds": 133333,
+                    "profit": 83333,
+                    "roi": 166
+                },
+                "bull": {
+                    "investment": 250000,
+                    "costBasis": 0.45,
+                    "exitPrice": 1.80,
+                    "proceeds": 1000000,
+                    "profit": 750000,
+                    "roi": 300
+                },
+                "bear": {
+                    "investment": 50000,
+                    "costBasis": 0.45,
+                    "exitPrice": 0.30,
+                    "proceeds": 33333,
+                    "profit": -16667,
+                    "roi": -33
+                }
+            },
+            "risks": [
+                "Dubai event fizzles - no pump",
+                "Founder dumps before you can exit",
+                "OTC counterparty risk",
+                "Liquidity too thin to exit position"
+            ],
+            "ethicalNote": "You are purchasing the capitulation of people who believed the promise. The money transfers from future victims (Dubai recruits) to you."
+        },
+        {
+            "id": "event-arbitrage",
+            "name": "Event-Driven Arbitrage",
+            "shortName": "Event Rider",
+            "risk": "low",
+            "expectedRoi": "40-80%",
+            "capitalRequired": "$10K-100K",
+            "timeHorizon": "80 days",
+            "summary": "Front-run the predictable marketing cycle around Dubai events for systematic gains.",
+            "executionSteps": [
+                "Monitor event announcements 3-4 weeks prior",
+                "Enter position 1 month before event (March 25)",
+                "Track social media campaign intensity",
+                "Set exit points during event peak (April 28-30)",
+                "Exit completely before post-event dump (2-3 weeks after)"
+            ],
+            "historicalPattern": {
+                "singapore2025": {
+                    "event": "Token 2049 Singapore",
+                    "date": "September 2025",
+                    "peakPrice": 7.00,
+                    "preEventPrice": 2.50,
+                    "postDumpPrice": 0.85
+                }
+            },
+            "projections": {
+                "base": {
+                    "entryPrice": 0.78,
+                    "targetPrice": 1.30,
+                    "roi": 67
+                },
+                "bull": {
+                    "entryPrice": 0.78,
+                    "targetPrice": 2.00,
+                    "roi": 156
+                },
+                "bear": {
+                    "entryPrice": 0.78,
+                    "targetPrice": 0.60,
+                    "roi": -23
+                }
+            },
+            "risks": [
+                "Event cancellation (5% probability)",
+                "Founder rugs before event (10%)",
+                "Market conditions suppress pump"
+            ],
+            "ethicalNote": "You are timing the recruitment cycle. Your profits come from those who buy at the top."
+        },
+        {
+            "id": "information-arbitrage",
+            "name": "Information Arbitrage",
+            "shortName": "Intel Edge",
+            "risk": "low",
+            "expectedRoi": "Variable",
+            "capitalRequired": "Time only",
+            "timeHorizon": "Ongoing",
+            "summary": "Extract alpha from systematic analysis of founder's public communications.",
+            "executionSteps": [
+                "Monitor weekly 'Miner Update' YouTube calls (Tuesdays)",
+                "Track commission rate announcements (cash flow indicator)",
+                "Watch for layoff announcements (cost-cutting signal)",
+                "Note new project announcements (capital diversion)",
+                "Correlate announcements with price action"
+            ],
+            "keySignals": [
+                {
+                    "signal": "High commission rate announced",
+                    "interpretation": "Cash flow stress, price support may weaken"
+                },
+                {
+                    "signal": "Large event spend disclosed",
+                    "interpretation": "Expect aggressive pump marketing"
+                },
+                {
+                    "signal": "Layoffs announced",
+                    "interpretation": "Cost-cutting, reduced operations"
+                },
+                {
+                    "signal": "New coin launch (Iskander)",
+                    "interpretation": "Attention/capital diversion from TXC"
+                }
+            ],
+            "projections": {
+                "base": {
+                    "roi": 15
+                },
+                "bull": {
+                    "roi": 50
+                },
+                "bear": {
+                    "roi": -10
+                }
+            },
+            "risks": [
+                "Founder stops public communications",
+                "Signals misinterpreted",
+                "Markets don't respond to signals"
+            ],
+            "ethicalNote": "This exploits information asymmetry. Most holders don't analyze systematically."
+        },
+        {
+            "id": "cross-mining-fade",
+            "name": "Cross-Mining Fade",
+            "shortName": "Iskander Fade",
+            "risk": "medium",
+            "expectedRoi": "50-150%",
+            "capitalRequired": "$10K-50K",
+            "timeHorizon": "6 months",
+            "summary": "Capitalize on short-term Iskander hype, then fade as cross-mining reality sets in.",
+            "executionSteps": [
+                "Monitor Iskander launch (Feb 3, 2026 - complete)",
+                "Watch for cross-mining narrative momentum",
+                "Enter TXC on Iskander-related pumps",
+                "Exit as technical reality becomes apparent",
+                "Optionally short Iskander if accessible"
+            ],
+            "thesis": "Iskander dilutes attention and capital from TXC. Initial hype fades as 100M MH/s mine proves insufficient to support two coins.",
+            "projections": {
+                "base": {
+                    "entryPrice": 0.78,
+                    "targetPrice": 1.20,
+                    "roi": 54
+                },
+                "bull": {
+                    "entryPrice": 0.78,
+                    "targetPrice": 1.95,
+                    "roi": 150
+                },
+                "bear": {
+                    "entryPrice": 0.78,
+                    "targetPrice": 0.50,
+                    "roi": -36
+                }
+            },
+            "risks": [
+                "Cross-mining actually works (unlikely)",
+                "Both coins pump together",
+                "Iskander cannibalizes TXC entirely"
+            ],
+            "ethicalNote": "You are betting on technical failure. The miners who bought into cross-mining lose."
+        },
+        {
+            "id": "distressed-lp",
+            "name": "Distressed LP Provision",
+            "shortName": "LP Harvest",
+            "risk": "medium-high",
+            "expectedRoi": "20-40% APY",
+            "capitalRequired": "$25K+",
+            "timeHorizon": "Ongoing",
+            "summary": "Provide liquidity on thin order books with wide spreads to capture fees.",
+            "executionSteps": [
+                "Analyze order book depth on Dex-Trade, BitMart",
+                "Identify spread opportunities (often 2-5%)",
+                "Deploy capital as market maker",
+                "Manage impermanent loss exposure",
+                "Harvest fees continuously"
+            ],
+            "targetPools": [
+                {
+                    "exchange": "Dex-Trade",
+                    "pair": "TXC/USDT",
+                    "typicalSpread": 2.5
+                },
+                {
+                    "exchange": "BitMart",
+                    "pair": "TXC/USDT",
+                    "typicalSpread": 3.2
+                },
+                {
+                    "exchange": "BitMart",
+                    "pair": "TXC/BTC",
+                    "typicalSpread": 4.1
+                }
+            ],
+            "projections": {
+                "base": {
+                    "apy": 25
+                },
+                "bull": {
+                    "apy": 40
+                },
+                "bear": {
+                    "apy": -15
+                }
+            },
+            "risks": [
+                "Impermanent loss if price moves sharply",
+                "Exchange delisting",
+                "Liquidity dries up completely",
+                "Founder market manipulation affects spreads"
+            ],
+            "ethicalNote": "You profit from the chaos. Wide spreads exist because the market is dysfunctional."
+        },
+        {
+            "id": "regulatory-catalyst",
+            "name": "Regulatory Catalyst Play",
+            "shortName": "Reg Roulette",
+            "risk": "high",
+            "expectedRoi": "200%+ or 0",
+            "capitalRequired": "Speculative",
+            "timeHorizon": "6-18 months",
+            "summary": "Position for binary regulatory outcome - either crackdown or surprise legitimacy.",
+            "executionSteps": [
+                "Monitor SEC/CFTC enforcement actions",
+                "Track state AG investigations",
+                "Watch for CoinMarketCap status changes",
+                "Maintain small monitoring position",
+                "Scale in on regulatory clarity"
+            ],
+            "currentStatus": {
+                "secAction": false,
+                "cftcAction": false,
+                "registeredSecurity": false,
+                "coinMarketCapListing": "rejected",
+                "reason": "centralization concerns"
+            },
+            "scenarios": {
+                "crackdown": {
+                    "probability": 25,
+                    "outcome": "TXC delisted, network collapses, 100% loss"
+                },
+                "noAction": {
+                    "probability": 60,
+                    "outcome": "Status quo continues, slow decay"
+                },
+                "legitimacy": {
+                    "probability": 15,
+                    "outcome": "Regulatory approval, 200%+ pump"
+                }
+            },
+            "risks": [
+                "Could take years",
+                "May never happen",
+                "Position sizing critical"
+            ],
+            "ethicalNote": "You are speculating on legal outcomes. If crackdown happens, you exit first while retail holds bags."
+        }
+    ],
+    "metadata": {
+        "lastUpdated": "2026-02-04",
+        "version": "1.0",
+        "disclaimer": "This is for informational purposes only. Not investment advice.",
+        "currentTxcPrice": 0.78,
+        "targetPrice": 16.00,
+        "realityGap": -95.1
+    }
+}

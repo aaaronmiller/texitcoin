@@ -1,0 +1,112 @@
+{
+    "events": [
+        {
+            "id": "iscander-genesis",
+            "name": "Iskander First Block",
+            "date": "2026-02-03",
+            "location": "Dubai",
+            "type": "launch",
+            "status": "complete",
+            "relevance": "Cross-mining narrative begins",
+            "impact": "medium"
+        },
+        {
+            "id": "dat-summit",
+            "name": "DAT Summit Hong Kong",
+            "date": "2026-02-13",
+            "location": "Hong Kong",
+            "type": "conference",
+            "status": "upcoming",
+            "relevance": "Pre-Dubai momentum builder",
+            "impact": "low"
+        },
+        {
+            "id": "polo-dubai",
+            "name": "Dubai Polo Event",
+            "date": "2026-04-25",
+            "location": "Dubai",
+            "type": "private",
+            "status": "upcoming",
+            "relevance": "Early exit opportunity, UHNW networking",
+            "impact": "medium"
+        },
+        {
+            "id": "yacht-dubai",
+            "name": "Dubai Yacht Event",
+            "date": "2026-04-26",
+            "location": "Dubai Marina",
+            "type": "private",
+            "status": "upcoming",
+            "relevance": "Secondary exit window",
+            "impact": "medium"
+        },
+        {
+            "id": "token2049-dubai",
+            "name": "Token 2049 Dubai",
+            "date": "2026-04-29",
+            "endDate": "2026-04-30",
+            "location": "Madinat Jumeirah, Dubai",
+            "type": "conference",
+            "status": "upcoming",
+            "relevance": "PRIMARY EXIT WINDOW - Peak hype catalyst",
+            "impact": "critical",
+            "expectedAttendees": 15000,
+            "speakers": 200,
+            "url": "https://token2049.com/dubai"
+        },
+        {
+            "id": "atlantis-launch",
+            "name": "Atlantis Launch Event",
+            "date": "2026-04-30",
+            "location": "Atlantis The Palm, Dubai",
+            "type": "private",
+            "status": "upcoming",
+            "relevance": "Final exit window before post-event dump",
+            "impact": "high"
+        }
+    ],
+    "historicalEvents": [
+        {
+            "id": "token2049-singapore-2025",
+            "name": "Token 2049 Singapore",
+            "date": "2025-09-15",
+            "prePumpPrice": 2.50,
+            "peakPrice": 7.00,
+            "postDumpPrice": 0.85,
+            "pumpMultiple": 2.8,
+            "dumpPercent": -88,
+            "lessonLearned": "Events create 2-3x pumps followed by 80%+ dumps"
+        },
+        {
+            "id": "security-breach-nov-2025",
+            "name": "Security Breach",
+            "date": "2025-11-15",
+            "priceImpact": -15,
+            "lessonLearned": "Security issues create buying opportunities if founder damage controls"
+        },
+        {
+            "id": "liquidity-burn-dec-2025",
+            "name": "$131K Liquidity Burn",
+            "date": "2025-12-20",
+            "amount": 131000,
+            "exchange": "BitMart",
+            "priceImpact": 12,
+            "lessonLearned": "Founder willing to burn capital to maintain price floor"
+        }
+    ],
+    "primaryCatalyst": {
+        "name": "Dubai Event Cluster",
+        "startDate": "2026-04-25",
+        "endDate": "2026-04-30",
+        "daysFromNow": null,
+        "marketingWindow": {
+            "start": "2026-03-25",
+            "peak": "2026-04-28"
+        }
+    },
+    "metadata": {
+        "lastUpdated": "2026-02-04",
+        "nextUpdate": "2026-04-15",
+        "timezone": "UTC"
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"/": [],
+	"/report": [
+		"src/routes/report/+layout.ts",
+		"src/routes/report/+layout.ts"
+	],
+	"/strike": [
+		"src/routes/strike/+layout.ts",
+		"src/routes/strike/+layout.ts"
+	]
+}

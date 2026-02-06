@@ -1,0 +1,99 @@
+{
+    "partnerships": [
+        {
+            "id": "dallas-stars",
+            "name": "Dallas Stars (NHL)",
+            "claimed": "Official sponsor with logo visibility",
+            "status": "unverified",
+            "evidence": "No corroboration found. Disruption Banking investigation found no evidence of official sponsorship deal.",
+            "source": "Disruption Banking",
+            "sourceUrl": "https://disruptionbanking.com"
+        },
+        {
+            "id": "formula-1",
+            "name": "Formula 1",
+            "claimed": "Official sponsor",
+            "status": "denied",
+            "evidence": "Formula 1 denied on record that TEXITcoin was a sponsor when contacted by investigators.",
+            "source": "Disruption Banking",
+            "sourceUrl": "https://disruptionbanking.com"
+        },
+        {
+            "id": "ut-athletics",
+            "name": "University of Texas Athletics",
+            "claimed": "Official UT Athletics/Longhorn Sports Properties sponsor",
+            "status": "misleading",
+            "evidence": "Only confirmed sponsorship is of Texas-athletics-focused broadcast segments on niche YouTube channels (e.g., Frogs Today). This is NOT the same as official UT Athletics sponsorship.",
+            "source": "Disruption Banking, public records",
+            "sourceUrl": "https://disruptionbanking.com"
+        },
+        {
+            "id": "tcu",
+            "name": "Texas Christian University",
+            "claimed": "Sponsor",
+            "status": "denied",
+            "evidence": "TCU denied on record that TEXITcoin was a sponsor when contacted by investigators.",
+            "source": "Disruption Banking",
+            "sourceUrl": "https://disruptionbanking.com"
+        }
+    ],
+    "verifiedListings": [
+        {
+            "type": "CEX",
+            "name": "BitMart",
+            "pair": "TXC/USDT",
+            "listingDate": "2024-12-31",
+            "status": "verified"
+        },
+        {
+            "type": "CEX",
+            "name": "MEXC",
+            "pair": "TXC/USDT",
+            "volumeShare": "~22%",
+            "status": "verified"
+        },
+        {
+            "type": "CEX",
+            "name": "Dex-Trade",
+            "pair": "TXC/USDT",
+            "listingDate": "2024-05-15",
+            "note": "First official exchange listing",
+            "status": "verified"
+        },
+        {
+            "type": "CEX",
+            "name": "XT.COM",
+            "pair": "TXC/USDC",
+            "status": "verified"
+        },
+        {
+            "type": "CEX",
+            "name": "Pionex",
+            "pair": "TXC/USDT",
+            "status": "verified"
+        },
+        {
+            "type": "CEX",
+            "name": "Biconomy",
+            "pair": "TXC/USDC",
+            "status": "verified"
+        },
+        {
+            "type": "DEX",
+            "name": "Uniswap v2",
+            "pair": "TXC/USDC",
+            "liquidity": "$121,639",
+            "note": "Primary DeFi venue via wTXC",
+            "status": "verified"
+        }
+    ],
+    "methodology": {
+        "description": "Partnership claims were verified through direct contact with alleged partners, public records searches, and review of official sponsorship announcements.",
+        "sources": [
+            "Disruption Banking investigative reports (2025-2026)",
+            "Official partner communications",
+            "CoinMarketCap market data",
+            "Exchange announcements"
+        ]
+    }
+}

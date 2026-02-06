@@ -1,0 +1,47 @@
+{
+    "maxSupply": 353396296,
+    "totalSupply": 65640204,
+    "circulatingSupply": {
+        "selfReported": 58990000,
+        "bitmart": 28850000,
+        "discrepancyNote": "Significant discrepancy between self-reported (CoinMarketCap) and exchange-reported figures suggests large overhang of non-circulating coins"
+    },
+    "blockReward": 254,
+    "blockTimeMinutes": 3,
+    "annualEmission": 44500800,
+    "halvingBlock": 695662,
+    "halvingEstimateYears": 4,
+    "algorithm": "Scrypt (Proof of Work)",
+    "chainType": "Layer 1",
+    "launchDate": "2024-01",
+    "coreVersion": "TexitCoinCore:0.22.0",
+    "explorerUrl": "https://explorer.texitcoin.org",
+    "wTXC": {
+        "contractAddress": "0x9fc6...facbb88",
+        "network": "Ethereum",
+        "maxSupply": 500000,
+        "bridgeUrl": "https://wtxc.texitcoin.org",
+        "conversionFees": {
+            "txcToWtxc": 0,
+            "wtxcToTxc": 1,
+            "minimumTxcToWtxc": 10,
+            "minimumWtxcToTxc": 2
+        },
+        "centralizationRisk": "Owner-controlled minting capability introduces counterparty risk. No third-party audit."
+    },
+    "networkMetrics": {
+        "peerCount": 2,
+        "hashrate": {
+            "actual": "30-40 GH",
+            "sold": "600+ GH",
+            "discrepancy": "~93% of sold hashpower not operational",
+            "note": "Network hashrate data from explorer shows minimal peer connections, suggesting highly centralized operation"
+        }
+    },
+    "emissionSchedule": {
+        "blocksPerYear": 175200,
+        "currentYearEmission": 44500800,
+        "percentOfMaxMined": 18.6,
+        "yearsToFullEmission": "Estimated 15+ years at current rate before halving"
+    }
+}

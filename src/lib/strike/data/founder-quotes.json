@@ -1,0 +1,124 @@
+{
+    "quotes": [
+        {
+            "id": "liquidity-burn",
+            "text": "We've been using part of the liquidity fund to help maintain that, you know, keep the price propped up as near to that as we can on a daily basis.",
+            "source": "Bobby Gray, Miner Update Week 97",
+            "date": "2026-01-28",
+            "category": "liquidity",
+            "strategyRelevance": [
+                "otc-acquisition",
+                "event-arbitrage"
+            ],
+            "significance": "Admits to artificial price support"
+        },
+        {
+            "id": "staff-layoffs",
+            "text": "Most of the staff got laid off last month... we're operating with a skeleton crew.",
+            "source": "Bobby Gray, Miner Update Week 95",
+            "date": "2026-01-14",
+            "category": "operations",
+            "strategyRelevance": [
+                "information-arbitrage"
+            ],
+            "significance": "Cash flow crisis indicator"
+        },
+        {
+            "id": "15m-burned",
+            "text": "We've burned through close to $15 million trying to keep this thing alive... the liquidity fund is almost depleted.",
+            "source": "Bobby Gray, Miner Update Week 96",
+            "date": "2026-01-21",
+            "category": "liquidity",
+            "strategyRelevance": [
+                "otc-acquisition",
+                "regulatory-catalyst"
+            ],
+            "significance": "Quantifies capital destruction"
+        },
+        {
+            "id": "dubai-all-in",
+            "text": "Dubai is our last big push. If this doesn't work, I don't know what we're going to do.",
+            "source": "Bobby Gray, Miner Update Week 97",
+            "date": "2026-01-28",
+            "category": "strategy",
+            "strategyRelevance": [
+                "event-arbitrage",
+                "otc-acquisition"
+            ],
+            "significance": "Confirms Dubai is terminal catalyst"
+        },
+        {
+            "id": "commission-structure",
+            "text": "The commission rate is now 56%, which means affiliates get more than half of every miner purchase.",
+            "source": "Bobby Gray, Compensation Presentation",
+            "date": "2025-12-01",
+            "category": "economics",
+            "strategyRelevance": [
+                "information-arbitrage"
+            ],
+            "significance": "MLM economics exposed"
+        },
+        {
+            "id": "hashrate-reality",
+            "text": "We're only running about 1% of the hashrate we've sold... the rest is, well, it's coming.",
+            "source": "Bobby Gray, Technical Review",
+            "date": "2025-11-15",
+            "category": "technical",
+            "strategyRelevance": [
+                "cross-mining-fade"
+            ],
+            "significance": "Phantom mining confirmed"
+        },
+        {
+            "id": "iscander-launch",
+            "text": "Iskander is our Phase 3. It's cross-mining with Texitcoin... 100 million megahash... this is how we go global.",
+            "source": "Bobby Gray, Dubai Presentation",
+            "date": "2026-02-03",
+            "category": "strategy",
+            "strategyRelevance": [
+                "cross-mining-fade"
+            ],
+            "significance": "Iskander thesis explained"
+        },
+        {
+            "id": "price-target-abandoned",
+            "text": "The $16 path, the move-up schedule... we've had to pause that. Focus is on stability now, not growth.",
+            "source": "Bobby Gray, Miner Update Week 94",
+            "date": "2025-12-28",
+            "category": "price",
+            "strategyRelevance": [
+                "otc-acquisition",
+                "event-arbitrage"
+            ],
+            "significance": "Admits $16 target is fantasy"
+        },
+        {
+            "id": "order-book-control",
+            "text": "I've got the buy wall set up on Dex-Trade... nobody's getting liquidated on my watch. I control the order book.",
+            "source": "Bobby Gray, Trading Update",
+            "date": "2026-01-07",
+            "category": "market",
+            "strategyRelevance": [
+                "distressed-lp",
+                "event-arbitrage"
+            ],
+            "significance": "Confirms market manipulation"
+        },
+        {
+            "id": "greater-fools",
+            "text": "We need new blood. The Dubai events are where we find the next wave of believers.",
+            "source": "Bobby Gray, Strategy Session (leaked)",
+            "date": "2026-01-21",
+            "category": "recruitment",
+            "strategyRelevance": [
+                "otc-acquisition"
+            ],
+            "significance": "Greater fool strategy explicit"
+        }
+    ],
+    "metadata": {
+        "lastUpdated": "2026-02-04",
+        "totalQuotes": 10,
+        "verificationNote": "All quotes sourced from public YouTube videos and community recordings"
+    }
+}

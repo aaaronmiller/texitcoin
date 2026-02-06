@@ -1,0 +1,94 @@
+{
+    "events": [
+        {
+            "id": "liberty-dollar",
+            "era": "Liberty Dollar Era",
+            "startYear": 1998,
+            "endYear": 2007,
+            "role": "Regional Currency Officer",
+            "organization": "Liberty Dollar / NORFED",
+            "outcome": "Federal raid, founder Bernard von NotHaus convicted of counterfeiting",
+            "pattern": "Asset seizure by federal authorities",
+            "details": "Gray served as a Regional Currency Officer for Liberty Dollar, a private precious-metals currency. The organization was raided by federal agents in 2007, and founder Bernard von NotHaus was later convicted of counterfeiting U.S. currency.",
+            "source": "Congressional records, court documents",
+            "riskIndicator": "high"
+        },
+        {
+            "id": "aocs",
+            "era": "AOCS Era",
+            "startYear": 2007,
+            "endYear": 2012,
+            "role": "Founder / Executive Director",
+            "organization": "American Open Currency Standard (AOCS)",
+            "outcome": "Organizational collapse",
+            "pattern": "Operational failure after scaling attempts",
+            "details": "In 2007, Gray launched AOCS as his own parallel currency network. He testified before the U.S. House Subcommittee on Domestic Monetary Policy & Technology in 2012, describing AOCS as a framework for competing private currencies. The organization collapsed shortly after.",
+            "source": "House Financial Services Committee records (2012)",
+            "sourceUrl": "https://financialservices.house.gov",
+            "riskIndicator": "high"
+        },
+        {
+            "id": "mulligan-mint",
+            "era": "Mulligan Mint Era",
+            "startYear": 2012,
+            "endYear": 2014,
+            "role": "President",
+            "organization": "Mulligan Mint",
+            "outcome": "Bankruptcy, $1.4M silver shipment missing",
+            "pattern": "Vanishing assets under Gray's leadership",
+            "details": "After AOCS collapsed, Gray founded Mulligan Mint as a private mint. The Wall Street Journal reported the company's bankruptcy after part of a $1.4M silver shipment went missing. As president, Gray stated they 'didn't know where the silver went.'",
+            "source": "Wall Street Journal, bankruptcy records",
+            "riskIndicator": "high"
+        },
+        {
+            "id": "cold-storage",
+            "era": "Cold Storage / Blockchain Mint Era",
+            "startYear": 2014,
+            "endYear": 2023,
+            "role": "Founder",
+            "organization": "Cold Storage Coins / Blockchain Mint",
+            "outcome": "Pivot to TEXITcoin",
+            "pattern": "Physical-to-digital transition",
+            "details": "Gray launched Singapore-based Cold Storage Coins, selling physical coins with QR codes for bitcoin and other assets. By 2023, Cold Storage Coin was rebooted as Blockchain Mint, which remains closely linked with TEXITcoin marketing.",
+            "source": "Company websites, marketing materials",
+            "riskIndicator": "medium"
+        },
+        {
+            "id": "texitcoin",
+            "era": "TEXITcoin Era",
+            "startYear": 2024,
+            "endYear": null,
+            "role": "Founder",
+            "organization": "TEXITcoin / mineTXC",
+            "outcome": "Ongoing - under investigation by independent researchers",
+            "pattern": "MLM-style hashpower sales, multiple security breaches",
+            "details": "TEXITcoin launched in early 2024 as a Texas-themed Layer-1 PoW cryptocurrency. mineTXC launched in April 2024 as the 'official mining partner.' Multiple investigative reports have highlighted security breaches, hashrate discrepancies, and MLM-style compensation structures.",
+            "source": "Disruption Banking, BehindMLM, CoinMLS",
+            "riskIndicator": "high"
+        }
+    ],
+    "behavioralPatterns": [
+        {
+            "pattern": "Physical Backing → Failure → Digital Pivot",
+            "description": "Each venture starts with claims of physical asset backing (silver, metals) that ultimately proves unreliable, followed by a pivot to digital/crypto assets."
+        },
+        {
+            "pattern": "Vanishing Assets",
+            "description": "Recurring theme of assets disappearing under unclear circumstances (missing silver at Mulligan Mint, missing hashpower at mineTXC)."
+        },
+        {
+            "pattern": "Resistance to External Audits",
+            "description": "No verified third-party audits across any ventures. Financial opacity is a consistent operational characteristic."
+        },
+        {
+            "pattern": "External Blame Attribution",
+            "description": "When failures occur, responsibility is attributed to external factors (hackers, voltage errors, rogue employees) rather than systemic issues."
+        }
+    ],
+    "congressionalTestimony": {
+        "date": "2012",
+        "committee": "House Subcommittee on Domestic Monetary Policy & Technology",
+        "topic": "Competing private currencies and community barter systems",
+        "significance": "Gray positioned himself as an expert on alternative currencies before Congress, lending credibility to future ventures."
+    }
+}

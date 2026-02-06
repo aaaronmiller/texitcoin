@@ -1,0 +1,153 @@
+{
+    "categories": [
+        {
+            "name": "Asset & Liquidity",
+            "risks": [
+                {
+                    "id": "rug-pull",
+                    "name": "Total Rug Pull",
+                    "description": "Founder abandons project, takes remaining funds",
+                    "severity": 10,
+                    "probability": 15,
+                    "mitigation": "Position sizing, diversified exit points, OTC preferred",
+                    "indicators": [
+                        "Large wallet movements",
+                        "Silence on updates",
+                        "Staff resignations"
+                    ]
+                },
+                {
+                    "id": "liquidity-death",
+                    "name": "Liquidity Evaporation",
+                    "description": "Order books empty, cannot exit position",
+                    "severity": 9,
+                    "probability": 20,
+                    "mitigation": "Monitor order book depth daily, prefer OTC exits",
+                    "indicators": [
+                        "Declining volume",
+                        "Widening spreads",
+                        "Exchange delistings"
+                    ]
+                },
+                {
+                    "id": "founder-dump",
+                    "name": "Founder Wallet Dump",
+                    "description": "26% supply holder dumps on market",
+                    "severity": 10,
+                    "probability": 30,
+                    "mitigation": "Watch rich list movements, set stop-losses",
+                    "indicators": [
+                        "Large outflows from top wallets",
+                        "Unusual exchange deposits"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Event & Execution",
+            "risks": [
+                {
+                    "id": "event-cancel",
+                    "name": "Dubai Event Cancellation",
+                    "description": "Primary catalyst fails to materialize",
+                    "severity": 8,
+                    "probability": 5,
+                    "mitigation": "Diversify across multiple event catalysts",
+                    "indicators": [
+                        "Venue cancellation news",
+                        "Reduced marketing spend"
+                    ]
+                },
+                {
+                    "id": "pump-fail",
+                    "name": "Pump Failure",
+                    "description": "Event occurs but no price increase",
+                    "severity": 7,
+                    "probability": 25,
+                    "mitigation": "Set conservative targets, take partial profits",
+                    "indicators": [
+                        "Low pre-event volume",
+                        "Negative market sentiment"
+                    ]
+                },
+                {
+                    "id": "exit-timing",
+                    "name": "Exit Timing Failure",
+                    "description": "Miss the top, exit during dump",
+                    "severity": 6,
+                    "probability": 35,
+                    "mitigation": "Ladder exits, don't wait for absolute top",
+                    "indicators": [
+                        "Volume spike",
+                        "Social sentiment peak"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Regulatory & Legal",
+            "risks": [
+                {
+                    "id": "sec-enforcement",
+                    "name": "SEC Enforcement Action",
+                    "description": "TXC classified as unregistered security",
+                    "severity": 7,
+                    "probability": 25,
+                    "mitigation": "Monitor SEC filings, maintain exit capability",
+                    "indicators": [
+                        "SEC press releases",
+                        "Exchange compliance notices"
+                    ]
+                },
+                {
+                    "id": "exchange-delist",
+                    "name": "Exchange Delisting",
+                    "description": "Remaining exchanges remove TXC",
+                    "severity": 8,
+                    "probability": 20,
+                    "mitigation": "Hold on multiple exchanges, have OTC relationships",
+                    "indicators": [
+                        "Compliance warnings",
+                        "CMC/CoinGecko status changes"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Counterparty",
+            "risks": [
+                {
+                    "id": "otc-fraud",
+                    "name": "OTC Counterparty Fraud",
+                    "description": "Seller doesn't deliver coins after payment",
+                    "severity": 5,
+                    "probability": 15,
+                    "mitigation": "Use escrow, smart contracts, trusted intermediaries",
+                    "indicators": [
+                        "Unwillingness to use escrow",
+                        "Pressure for quick payment"
+                    ]
+                },
+                {
+                    "id": "exchange-insolvency",
+                    "name": "Exchange Insolvency",
+                    "description": "Dex-Trade or BitMart fails",
+                    "severity": 9,
+                    "probability": 10,
+                    "mitigation": "Don't hold large balances on exchange",
+                    "indicators": [
+                        "Withdrawal delays",
+                        "Negative reviews",
+                        "Proof of reserves issues"
+                    ]
+                }
+            ]
+        }
+    ],
+    "overallRiskScore": 7.2,
+    "recommendation": "High risk, high reward. Position sizing critical. Never exceed 10-20% of liquid portfolio.",
+    "metadata": {
+        "lastUpdated": "2026-02-04",
+        "methodology": "Risk scores based on historical crypto market patterns and TEXITcoin-specific factors"
+    }
+}
