@@ -15,8 +15,7 @@
 ```bash
 cd _RELEASE/GitHub_Version
 npm run build
-git add -A && git commit -m "Update build"
-git push origin main
+git add -A && git commit -m "Update" && git push origin main
 ```
 Wait 1-2 minutes for GitHub Pages to rebuild.
 
@@ -28,30 +27,40 @@ Wait 1-2 minutes for GitHub Pages to rebuild.
 
 **Location:** `_RELEASE/Vercel_Version/`
 
-### Deploy to Vercel
+### Setup Vercel (One-time)
 1. Go to: https://vercel.com/new
-2. Import from: `https://github.com/aaaronmiller/texitcoin/_RELEASE/Vercel_Version`
-3. Deploy
+2. Import from: `https://github.com/aaaronmiller/texitcoin`
+3. Import Path: `_RELEASE/Vercel_Version`
+4. Deploy
 
 ### Deploy Updates
-```bash
-cd _RELEASE/Vercel_Version
-git add -A && git commit -m "Update"
-git push origin main
-```
-Vercel auto-deploys on push.
+Vercel auto-deploys on push to main branch.
 
 ---
 
-## Folder Structure
+## Project Structure
+
 ```
 texitcoin/
 ├── _RELEASE/
-│   ├── GitHub_Version/     # Static build → GitHub Pages
-│   │   ├── docs/           # Built static files
-│   │   ├── src/
-│   │   └── package.json
-│   └── Vercel_Version/      # Server build → Vercel
-│       ├── src/
-│       └── package.json
+│   ├── GitHub_Version/     # Static adapter → GitHub Pages
+│   │   ├── docs/           # Built output
+│   │   └── svelte.config.js # adapter-static
+│   │
+│   └── Vercel_Version/     # Vercel adapter → Vercel
+│       └── svelte.config.js # adapter-vercel
 ```
+
+---
+
+## What Each Version Looks Like
+
+### Gateway Page (Both Versions)
+- **Left Card:** "The Autopsy" - Forensic Level 4 → /report
+- **Right Card:** "Vampiric Strike" - Predator Level 1 → /strike
+
+### /report (The Autopsy)
+Forensic intelligence report about TEXITcoin ecosystem analysis.
+
+### /strike (Vampiric Strike)
+Extraction protocol with risk metrics and strategies.

@@ -1,11 +1,19 @@
 {
-	"/": [],
+	"/": [
+		"src/routes/+page.js",
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
 	"/report": [
 		"src/routes/report/+layout.ts",
-		"src/routes/report/+layout.ts"
+		"src/routes/+layout.js",
+		"src/routes/report/+layout.ts",
+		"src/routes/+layout.js"
 	],
 	"/strike": [
 		"src/routes/strike/+layout.ts",
-		"src/routes/strike/+layout.ts"
+		"src/routes/+layout.js",
+		"src/routes/strike/+layout.ts",
+		"src/routes/+layout.js"
 	]
 }

@@ -7,16 +7,20 @@ const config = {
 			// GitHub Pages serves from the docs directory
 			pages: 'docs',
 			assets: 'docs',
-			fallback: '404.html',
+			fallback: undefined,
 			precompress: false,
-			strict: true
+			strict: false
 		}),
 		// Base path for GitHub Pages (will be set via environment variable for repo name)
 		paths: {
 			base: process.env.BASE_PATH || '/texitcoin'
 		},
 		prerender: {
-			entries: ['/', '/report', '/strike'],
+			entries: [
+				'/',
+				'/report',
+				'/strike'
+			],
 			origin: 'http://localhost',
 			handleHttpError: ({ status, path }) => {
 				if (status === 404) return; // ignore 404s during prerender
