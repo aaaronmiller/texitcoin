@@ -9,19 +9,19 @@ Unified SvelteKit monorepo hosting two intelligence products for the TEXITcoin e
 
 ## Deployment
 
-This version uses `@sveltejs/adapter-static` for GitHub Pages hosting. Built static files are served directly from the `build/` directory.
+This version uses `@sveltejs/adapter-static` for GitHub Pages hosting. Built static files are served directly from the `docs/` directory.
 
 ### Build & Deploy
 
 ```bash
 npm install
 npm run build
-# Static files ready in build/
+# Static files ready in docs/
 ```
 
 ### GitHub Pages Config
 
-Point your repo settings to deploy from this directory. The static adapter handles routing via `fallback: '404.html'`.
+Point your repo settings to deploy from the `docs/` folder on the main branch.
 
 ## Development
 
