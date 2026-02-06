@@ -14,6 +14,10 @@ const config = {
 		// Base path for GitHub Pages (will be set via environment variable for repo name)
 		paths: {
 			base: process.env.BASE_PATH || ''
+		},
+		prerender: {
+			entries: ['/', '/report', '/strike'],
+			origin: 'http://localhost'
 		}
 	}
 };

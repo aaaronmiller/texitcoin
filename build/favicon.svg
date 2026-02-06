@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Background -->
+  <rect width="256" height="256" fill="#0a0e27"/>
+  
+  <!-- Vampiric strike motif: stylized drop with forensic accent -->
+  <defs>
+    <linearGradient id="bloodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff1744;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c41c3b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Drop shape (vampire theme) -->
+  <path d="M 128 40 C 100 70 80 100 80 130 C 80 170 100 200 128 200 C 156 200 176 170 176 130 C 176 100 156 70 128 40 Z" fill="url(#bloodGrad)" stroke="#ff1744" stroke-width="2"/>
+  
+  <!-- Forensic X overlay (investigation theme) -->
+  <line x1="100" y1="110" x2="156" y2="150" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <line x1="156" y1="110" x2="100" y2="150" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  
+  <!-- Crime tape accent (bottom) -->
+  <rect x="70" y="210" width="116" height="8" fill="none" stroke="#ffeb3b" stroke-width="1.5" stroke-dasharray="8,4" opacity="0.8"/>
+</svg>
