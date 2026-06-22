@@ -1,5 +1,10 @@
 # TXC Intelligence Operations (GitHub Pages Edition)
 
+<p>
+<img src="https://img.shields.io/badge/SvelteKit-FF3E00?style=flat-square&logo=svelte&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub%20Pages-222?style=flat-square&logo=githubpages&logoColor=white">
+</p>
+
 Unified SvelteKit monorepo hosting two intelligence products for the TEXITcoin ecosystem, optimized for GitHub Pages deployment.
 
 ## Projects
